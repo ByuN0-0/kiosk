@@ -25,6 +25,7 @@ namespace kiosk.screen
             msg += "카운터에서 건네받을 금액 : ";
             msg += cost.ToString() + "원";
             MessageBox.Show(msg , "현금결제");
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -32,8 +33,8 @@ namespace kiosk.screen
             String msg = "";
             msg += "손님이 신용카드로 결제했습니다.\n";
             msg += "지불한 비용 : ";
-            msg += cost.ToString() + "원";
-            msg += "할부" + m.ToString() + "개월";
+            msg += cost.ToString() + "원 ";
+            msg += "할부" + m.ToString() + " 개월";
             MessageBox.Show(msg, "현금결제");
         }
 

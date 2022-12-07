@@ -83,8 +83,9 @@ namespace kiosk.screen
             pictureBox1.Visible = false;
             sumPriceLabel.Visible = false;
             sumPriceNum.Visible = false;
-            takeBtn.Visible = false;
             pricetag.Visible = false;
+            label1.Visible= false;
+            label2.Visible=false;
         }
         public void showBtn()
         {
@@ -102,8 +103,9 @@ namespace kiosk.screen
             pictureBox1.Visible = true;
             sumPriceLabel.Visible = true;
             sumPriceNum.Visible = true;
-            takeBtn.Visible = true;
             pricetag.Visible = true;
+            label1.Visible = true;
+            label2.Visible = true;
         }
         public void allBtnDisable()
         {

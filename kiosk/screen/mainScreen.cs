@@ -21,8 +21,8 @@ namespace kiosk.screen
         {
             InitializeComponent();
             cancelBtn.Visible = false;
-            button9.Enabled = false;
             SumPrice = 0;
+            button9.Visible= false;
         }
         private void AllBtnHide()
         {
@@ -44,7 +44,8 @@ namespace kiosk.screen
             product12.Visible = false;
             cancelBtn.Visible = true;
             payBtn.Visible = false;
-            button9.Enabled = true;
+            button9.Visible = true;
+            allCancelBtn.Visible = false;
         }
         private void AllBtnShow()
         {
@@ -66,7 +67,8 @@ namespace kiosk.screen
             product12.Visible = true;
             cancelBtn.Visible = false;
             payBtn.Visible = true;
-            button9.Enabled = false;
+            button9.Visible = false;
+            allCancelBtn.Visible = true;
         }
         private void product1_Click(object sender, EventArgs e)
         {
@@ -166,17 +168,15 @@ namespace kiosk.screen
 
         private void button9_Click(object sender, EventArgs e)
         {
-            if (sscreen.closenum == 1)
-            {
-                int temp = sscreen.sumpriceNum;
-                if (sscreen.hcvalue == 1) temp += 500; // 아이스 +500원
-                if (sscreen.sizedvalue == 1) temp += 500; // extra +500원
-                SumPrice += sscreen.num * temp;
-                sscreen.num = 1;
-                sscreen.hideBtn();
-                AllBtnShow();
-                sumpricelabel.Text = SumPrice.ToString();
-            }
+        
+            int temp = sscreen.sumpriceNum;
+            if (sscreen.hcvalue == 1) temp += 500; // 아이스 +500원
+            if (sscreen.sizedvalue == 1) temp += 500; // extra +500원
+            SumPrice += sscreen.num * temp;
+            sscreen.num = 1;
+            sscreen.hideBtn();
+            AllBtnShow();
+            sumpricelabel.Text = SumPrice.ToString();
         }
 
         private void cancelBtn_Click(object sender, EventArgs e)
@@ -229,6 +229,17 @@ namespace kiosk.screen
             selectpanel.Controls.Clear();
             selectpanel.Controls.Add(pscreen);
             pscreen.cost = SumPrice;
+        }
+
+        private void selectpanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void allCancelBtn_Click(object sender, EventArgs e)
+        {
+            SumPrice = 0;
+            sumpricelabel.Text = SumPrice.ToString();
         }
     }
 }
