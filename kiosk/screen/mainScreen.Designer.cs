@@ -46,11 +46,11 @@
             this.product1 = new System.Windows.Forms.PictureBox();
             this.button9 = new System.Windows.Forms.Button();
             this.selectpanel = new System.Windows.Forms.Panel();
+            this.payBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.wonlabel = new System.Windows.Forms.Label();
             this.sumpricelabel = new System.Windows.Forms.Label();
-            this.payBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.product10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product11)).BeginInit();
@@ -254,6 +254,16 @@
             this.selectpanel.Size = new System.Drawing.Size(600, 800);
             this.selectpanel.TabIndex = 44;
             // 
+            // payBtn
+            // 
+            this.payBtn.Location = new System.Drawing.Point(310, 620);
+            this.payBtn.Name = "payBtn";
+            this.payBtn.Size = new System.Drawing.Size(270, 163);
+            this.payBtn.TabIndex = 48;
+            this.payBtn.Text = "결제하기";
+            this.payBtn.UseVisualStyleBackColor = true;
+            this.payBtn.Click += new System.EventHandler(this.payBtn_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -290,16 +300,6 @@
             this.sumpricelabel.Size = new System.Drawing.Size(14, 15);
             this.sumpricelabel.TabIndex = 44;
             this.sumpricelabel.Text = "0";
-            // 
-            // payBtn
-            // 
-            this.payBtn.Location = new System.Drawing.Point(310, 616);
-            this.payBtn.Name = "payBtn";
-            this.payBtn.Size = new System.Drawing.Size(270, 163);
-            this.payBtn.TabIndex = 48;
-            this.payBtn.Text = "결제하기";
-            this.payBtn.UseVisualStyleBackColor = true;
-            this.payBtn.Click += new System.EventHandler(this.payBtn_Click);
             // 
             // mainScreen
             // 
