@@ -25,7 +25,6 @@ namespace kiosk.screen
             msg += "카운터에서 건네받을 금액 : ";
             msg += cost.ToString() + "원";
             MessageBox.Show(msg , "현금결제");
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
