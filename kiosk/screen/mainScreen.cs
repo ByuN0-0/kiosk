@@ -226,9 +226,11 @@ namespace kiosk.screen
             label1.Visible = false;
             wonlabel.Visible = false;
             sumpricelabel.Visible = false;
+            pscreen.cost = SumPrice;
+            pscreen.paintinit();
             selectpanel.Controls.Clear();
             selectpanel.Controls.Add(pscreen);
-            pscreen.cost = SumPrice;
+
         }
 
         private void selectpanel_Paint(object sender, PaintEventArgs e)

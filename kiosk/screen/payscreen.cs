@@ -18,6 +18,10 @@ namespace kiosk.screen
             InitializeComponent();
         }
 
+        public void paintinit()
+        {
+            label2.Text = cost.ToString() + "원";
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             String msg = "";

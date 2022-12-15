@@ -66,6 +66,7 @@
             // 
             // adjbox
             // 
+            this.adjbox.Image = global::kiosk.Properties.Resources.EdiyaLogo2;
             this.adjbox.Location = new System.Drawing.Point(0, 0);
             this.adjbox.Name = "adjbox";
             this.adjbox.Size = new System.Drawing.Size(600, 400);

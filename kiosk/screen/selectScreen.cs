@@ -24,6 +24,8 @@ namespace kiosk.screen
             showBtn();
             allBtnEnable();
             closenum = 0;
+            num = 1;
+            cntlabel.Text = num.ToString();
             sumpriceNum = price;
             switch (i)
             {
@@ -66,6 +68,9 @@ namespace kiosk.screen
             }
             this.price.Text = price.ToString();
             sumPriceNum.Text = sumpriceNum.ToString();
+            HotBtn.Enabled = false;
+            regularBtn.Enabled = false;
+            
         }
         public void hideBtn()
         {

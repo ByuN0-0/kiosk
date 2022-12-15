@@ -46,12 +46,12 @@
             this.product1 = new System.Windows.Forms.PictureBox();
             this.button9 = new System.Windows.Forms.Button();
             this.selectpanel = new System.Windows.Forms.Panel();
+            this.allCancelBtn = new System.Windows.Forms.Button();
             this.payBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.wonlabel = new System.Windows.Forms.Label();
             this.sumpricelabel = new System.Windows.Forms.Label();
-            this.allCancelBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.product10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product11)).BeginInit();
@@ -70,10 +70,9 @@
             // product10
             // 
             this.product10.Image = global::kiosk.Properties.Resources.whitechocolatemoca10;
-            this.product10.Location = new System.Drawing.Point(236, 727);
-            this.product10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product10.Location = new System.Drawing.Point(165, 436);
             this.product10.Name = "product10";
-            this.product10.Size = new System.Drawing.Size(179, 257);
+            this.product10.Size = new System.Drawing.Size(125, 154);
             this.product10.TabIndex = 42;
             this.product10.TabStop = false;
             this.product10.Click += new System.EventHandler(this.product10_Click);
@@ -81,10 +80,9 @@
             // product9
             // 
             this.product9.Image = global::kiosk.Properties.Resources.vanilalatte9;
-            this.product9.Location = new System.Drawing.Point(29, 727);
-            this.product9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product9.Location = new System.Drawing.Point(20, 436);
             this.product9.Name = "product9";
-            this.product9.Size = new System.Drawing.Size(179, 257);
+            this.product9.Size = new System.Drawing.Size(125, 154);
             this.product9.TabIndex = 41;
             this.product9.TabStop = false;
             this.product9.Click += new System.EventHandler(this.product9_Click);
@@ -92,10 +90,9 @@
             // product11
             // 
             this.product11.Image = global::kiosk.Properties.Resources.coldbrewlatte11;
-            this.product11.Location = new System.Drawing.Point(443, 727);
-            this.product11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product11.Location = new System.Drawing.Point(310, 436);
             this.product11.Name = "product11";
-            this.product11.Size = new System.Drawing.Size(179, 257);
+            this.product11.Size = new System.Drawing.Size(125, 154);
             this.product11.TabIndex = 40;
             this.product11.TabStop = false;
             this.product11.Click += new System.EventHandler(this.product11_Click);
@@ -103,10 +100,9 @@
             // product12
             // 
             this.product12.Image = global::kiosk.Properties.Resources.coldbrewwhitebienna12;
-            this.product12.Location = new System.Drawing.Point(650, 727);
-            this.product12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product12.Location = new System.Drawing.Point(455, 436);
             this.product12.Name = "product12";
-            this.product12.Size = new System.Drawing.Size(179, 257);
+            this.product12.Size = new System.Drawing.Size(125, 154);
             this.product12.TabIndex = 39;
             this.product12.TabStop = false;
             this.product12.Click += new System.EventHandler(this.product12_Click);
@@ -114,10 +110,9 @@
             // button4
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(650, 32);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button4.Location = new System.Drawing.Point(455, 19);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 38);
+            this.button4.Size = new System.Drawing.Size(125, 23);
             this.button4.TabIndex = 34;
             this.button4.Text = "에이드";
             this.button4.UseVisualStyleBackColor = true;
@@ -126,10 +121,9 @@
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(443, 32);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button3.Location = new System.Drawing.Point(310, 19);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(179, 38);
+            this.button3.Size = new System.Drawing.Size(125, 23);
             this.button3.TabIndex = 33;
             this.button3.Text = "블렌딩 티";
             this.button3.UseVisualStyleBackColor = true;
@@ -138,10 +132,9 @@
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(236, 32);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(165, 19);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(179, 38);
+            this.button2.Size = new System.Drawing.Size(125, 23);
             this.button2.TabIndex = 32;
             this.button2.Text = "베버리지";
             this.button2.UseVisualStyleBackColor = true;
@@ -150,10 +143,9 @@
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(29, 32);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(20, 19);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(179, 38);
+            this.button1.Size = new System.Drawing.Size(125, 23);
             this.button1.TabIndex = 31;
             this.button1.Text = "COFFEE";
             this.button1.UseVisualStyleBackColor = true;
@@ -162,10 +154,9 @@
             // product8
             // 
             this.product8.Image = global::kiosk.Properties.Resources.espressomacchiato8;
-            this.product8.Location = new System.Drawing.Point(650, 437);
-            this.product8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product8.Location = new System.Drawing.Point(455, 262);
             this.product8.Name = "product8";
-            this.product8.Size = new System.Drawing.Size(179, 257);
+            this.product8.Size = new System.Drawing.Size(125, 154);
             this.product8.TabIndex = 30;
             this.product8.TabStop = false;
             this.product8.Click += new System.EventHandler(this.product8_Click);
@@ -173,10 +164,9 @@
             // product4
             // 
             this.product4.Image = global::kiosk.Properties.Resources.cafemoca4;
-            this.product4.Location = new System.Drawing.Point(650, 142);
-            this.product4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product4.Location = new System.Drawing.Point(455, 85);
             this.product4.Name = "product4";
-            this.product4.Size = new System.Drawing.Size(179, 257);
+            this.product4.Size = new System.Drawing.Size(125, 154);
             this.product4.TabIndex = 29;
             this.product4.TabStop = false;
             this.product4.Click += new System.EventHandler(this.product4_Click);
@@ -184,10 +174,9 @@
             // product7
             // 
             this.product7.Image = global::kiosk.Properties.Resources.espressoconpanna7;
-            this.product7.Location = new System.Drawing.Point(443, 437);
-            this.product7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product7.Location = new System.Drawing.Point(310, 262);
             this.product7.Name = "product7";
-            this.product7.Size = new System.Drawing.Size(179, 257);
+            this.product7.Size = new System.Drawing.Size(125, 154);
             this.product7.TabIndex = 28;
             this.product7.TabStop = false;
             this.product7.Click += new System.EventHandler(this.product7_Click);
@@ -195,10 +184,9 @@
             // product3
             // 
             this.product3.Image = global::kiosk.Properties.Resources.cafelatte3;
-            this.product3.Location = new System.Drawing.Point(443, 142);
-            this.product3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product3.Location = new System.Drawing.Point(310, 85);
             this.product3.Name = "product3";
-            this.product3.Size = new System.Drawing.Size(179, 257);
+            this.product3.Size = new System.Drawing.Size(125, 154);
             this.product3.TabIndex = 27;
             this.product3.TabStop = false;
             this.product3.Click += new System.EventHandler(this.product3_Click);
@@ -206,10 +194,9 @@
             // product6
             // 
             this.product6.Image = global::kiosk.Properties.Resources.caramelmacchiatto6;
-            this.product6.Location = new System.Drawing.Point(236, 437);
-            this.product6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product6.Location = new System.Drawing.Point(165, 262);
             this.product6.Name = "product6";
-            this.product6.Size = new System.Drawing.Size(179, 257);
+            this.product6.Size = new System.Drawing.Size(125, 154);
             this.product6.TabIndex = 26;
             this.product6.TabStop = false;
             this.product6.Click += new System.EventHandler(this.product6_Click);
@@ -218,10 +205,9 @@
             // 
             this.product2.Image = global::kiosk.Properties.Resources.americano2;
             this.product2.InitialImage = null;
-            this.product2.Location = new System.Drawing.Point(236, 142);
-            this.product2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product2.Location = new System.Drawing.Point(165, 85);
             this.product2.Name = "product2";
-            this.product2.Size = new System.Drawing.Size(179, 257);
+            this.product2.Size = new System.Drawing.Size(125, 154);
             this.product2.TabIndex = 25;
             this.product2.TabStop = false;
             this.product2.Click += new System.EventHandler(this.product2_Click);
@@ -229,10 +215,9 @@
             // product5
             // 
             this.product5.Image = global::kiosk.Properties.Resources.cafuchino5;
-            this.product5.Location = new System.Drawing.Point(29, 437);
-            this.product5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product5.Location = new System.Drawing.Point(20, 262);
             this.product5.Name = "product5";
-            this.product5.Size = new System.Drawing.Size(179, 257);
+            this.product5.Size = new System.Drawing.Size(125, 154);
             this.product5.TabIndex = 24;
             this.product5.TabStop = false;
             this.product5.Click += new System.EventHandler(this.product5_Click);
@@ -240,20 +225,18 @@
             // product1
             // 
             this.product1.Image = global::kiosk.Properties.Resources.espresso1;
-            this.product1.Location = new System.Drawing.Point(29, 142);
-            this.product1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.product1.Location = new System.Drawing.Point(20, 85);
             this.product1.Name = "product1";
-            this.product1.Size = new System.Drawing.Size(179, 257);
+            this.product1.Size = new System.Drawing.Size(125, 154);
             this.product1.TabIndex = 23;
             this.product1.TabStop = false;
             this.product1.Click += new System.EventHandler(this.product1_Click);
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(443, 1035);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button9.Location = new System.Drawing.Point(310, 621);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(386, 270);
+            this.button9.Size = new System.Drawing.Size(270, 162);
             this.button9.TabIndex = 43;
             this.button9.Text = "담기";
             this.button9.UseVisualStyleBackColor = true;
@@ -261,6 +244,7 @@
             // 
             // selectpanel
             // 
+            this.selectpanel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.selectpanel.Controls.Add(this.allCancelBtn);
             this.selectpanel.Controls.Add(this.payBtn);
             this.selectpanel.Controls.Add(this.label1);
@@ -268,19 +252,28 @@
             this.selectpanel.Controls.Add(this.wonlabel);
             this.selectpanel.Controls.Add(this.sumpricelabel);
             this.selectpanel.Controls.Add(this.button9);
-            this.selectpanel.Location = new System.Drawing.Point(0, 5);
-            this.selectpanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.selectpanel.Location = new System.Drawing.Point(0, 3);
             this.selectpanel.Name = "selectpanel";
-            this.selectpanel.Size = new System.Drawing.Size(857, 1333);
+            this.selectpanel.Size = new System.Drawing.Size(600, 800);
             this.selectpanel.TabIndex = 44;
             this.selectpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.selectpanel_Paint);
             // 
+            // allCancelBtn
+            // 
+            this.allCancelBtn.Location = new System.Drawing.Point(310, 621);
+            this.allCancelBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.allCancelBtn.Name = "allCancelBtn";
+            this.allCancelBtn.Size = new System.Drawing.Size(133, 162);
+            this.allCancelBtn.TabIndex = 49;
+            this.allCancelBtn.Text = "전체 취소";
+            this.allCancelBtn.UseVisualStyleBackColor = true;
+            this.allCancelBtn.Click += new System.EventHandler(this.allCancelBtn_Click);
+            // 
             // payBtn
             // 
-            this.payBtn.Location = new System.Drawing.Point(640, 1033);
-            this.payBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.payBtn.Location = new System.Drawing.Point(448, 620);
             this.payBtn.Name = "payBtn";
-            this.payBtn.Size = new System.Drawing.Size(189, 272);
+            this.payBtn.Size = new System.Drawing.Size(132, 163);
             this.payBtn.TabIndex = 48;
             this.payBtn.Text = "결제하기";
             this.payBtn.UseVisualStyleBackColor = true;
@@ -289,19 +282,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(180, 1240);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(126, 744);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 25);
+            this.label1.Size = new System.Drawing.Size(19, 15);
             this.label1.TabIndex = 47;
             this.label1.Text = "총";
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(29, 1233);
-            this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cancelBtn.Location = new System.Drawing.Point(20, 740);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(107, 38);
+            this.cancelBtn.Size = new System.Drawing.Size(75, 23);
             this.cancelBtn.TabIndex = 46;
             this.cancelBtn.Text = "취소";
             this.cancelBtn.UseVisualStyleBackColor = true;
@@ -310,36 +301,24 @@
             // wonlabel
             // 
             this.wonlabel.AutoSize = true;
-            this.wonlabel.Location = new System.Drawing.Point(327, 1240);
-            this.wonlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.wonlabel.Location = new System.Drawing.Point(229, 744);
             this.wonlabel.Name = "wonlabel";
-            this.wonlabel.Size = new System.Drawing.Size(30, 25);
+            this.wonlabel.Size = new System.Drawing.Size(19, 15);
             this.wonlabel.TabIndex = 45;
             this.wonlabel.Text = "원";
             // 
             // sumpricelabel
             // 
             this.sumpricelabel.AutoSize = true;
-            this.sumpricelabel.Location = new System.Drawing.Point(264, 1240);
-            this.sumpricelabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.sumpricelabel.Location = new System.Drawing.Point(185, 744);
             this.sumpricelabel.Name = "sumpricelabel";
-            this.sumpricelabel.Size = new System.Drawing.Size(22, 25);
+            this.sumpricelabel.Size = new System.Drawing.Size(14, 15);
             this.sumpricelabel.TabIndex = 44;
             this.sumpricelabel.Text = "0";
             // 
-            // allCancelBtn
-            // 
-            this.allCancelBtn.Location = new System.Drawing.Point(443, 1035);
-            this.allCancelBtn.Name = "allCancelBtn";
-            this.allCancelBtn.Size = new System.Drawing.Size(190, 270);
-            this.allCancelBtn.TabIndex = 49;
-            this.allCancelBtn.Text = "전체 취소";
-            this.allCancelBtn.UseVisualStyleBackColor = true;
-            this.allCancelBtn.Click += new System.EventHandler(this.allCancelBtn_Click);
-            // 
             // mainScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.product10);
             this.Controls.Add(this.product9);
@@ -358,9 +337,8 @@
             this.Controls.Add(this.product5);
             this.Controls.Add(this.product1);
             this.Controls.Add(this.selectpanel);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "mainScreen";
-            this.Size = new System.Drawing.Size(857, 1333);
+            this.Size = new System.Drawing.Size(600, 800);
             ((System.ComponentModel.ISupportInitialize)(this.product10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.product9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.product11)).EndInit();

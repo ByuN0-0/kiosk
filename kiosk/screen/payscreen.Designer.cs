@@ -29,75 +29,98 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.AutoSize = true;
+            this.button1.Location = new System.Drawing.Point(3, 275);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(594, 260);
+            this.button1.Size = new System.Drawing.Size(192, 254);
             this.button1.TabIndex = 0;
             this.button1.Text = "현금 결제";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(3, 269);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(594, 260);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "신용카드결제";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(3, 535);
+            this.button3.AutoSize = true;
+            this.button3.Location = new System.Drawing.Point(399, 275);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(594, 262);
+            this.button3.Size = new System.Drawing.Size(192, 254);
             this.button3.TabIndex = 2;
             this.button3.Text = "체크카드결제";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // tableLayoutPanel1
+            // button2
             // 
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.button2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button3, 0, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(600, 800);
-            this.tableLayoutPanel1.TabIndex = 3;
+            this.button2.AutoSize = true;
+            this.button2.Location = new System.Drawing.Point(201, 275);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(192, 254);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "신용카드결제";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 207);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 15);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "지불해야할 비용";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(140, 207);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(31, 15);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "~ 원";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 178);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(151, 15);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "결제 방식을 선택해 주세요";
             // 
             // payscreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
             this.Name = "payscreen";
             this.Size = new System.Drawing.Size(600, 800);
-            this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private Button button1;
-        private Button button2;
         private Button button3;
-        private TableLayoutPanel tableLayoutPanel1;
+        private Button button2;
+        private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }
